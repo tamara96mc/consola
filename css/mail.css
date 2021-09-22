@@ -18,8 +18,7 @@ body{
     transform: translate(50%, 50%);
     width: 50%;
     height: 50%;
-    /* border: 3px solid rgb(51, 50, 50); */
-    border-radius: 50px;
+    border-radius: 8%;
     background: #121212;
     box-shadow:  20px 20px 60px #0f0f0f,
                  -20px -20px 60px #151515;
@@ -228,11 +227,12 @@ box-shadow: inset 20px 20px 60px #2e2d2d,
     position: absolute;
     margin: 0;
     color: rgba(228, 228, 228, 0.753);
-    font-size: x-large;
     left: 35%;
-    top: 25%;
-    height: 30%;
-    width: 30%;
+    top: 30%;
+    width: vh;
+    height: 2vh;
+    line-height: 2vh;
+    font-size: 2vh;
 }
 
 .letras_botones_grandes{
@@ -331,22 +331,24 @@ background-color: rgb(255, 251, 251);
     position: absolute;
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: xx-large;
-    top: 90%;
-    left: 45%;
-    height: 30%;
-    width: 30%;
+    top: 91%;
+    left: 46%;
+    width: 3vh;
+    height: 3vh;
+    line-height: 3vh;
+    font-size: 3vh;
 }
 
 #marca{
     position: absolute;
     margin: 0;
     color: rgb(255, 255, 255);
-    font-size: x-large;
     top: 7%;
-    left: 53%;
-    height: 30%;
-    width: 30%;
+    left: 70%;
+    width: 2vh;
+    height: 2vh;
+    line-height: 2vh;
+    font-size: 2vh;
 }
 
 .home{
@@ -359,3 +361,31 @@ background-color: rgb(255, 251, 251);
     margin: 0;
 }
 
+.lds-dual-ring {
+    display: inline-block;
+    width: 30vw;
+    height: 30vh;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 9%;
+    left: 22%;
+    width: 15vw;
+    height: 30vh;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
