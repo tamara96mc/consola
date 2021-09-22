@@ -1,0 +1,361 @@
+body{
+
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+}
+
+#container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(175, 206, 233);
+}
+
+#consola{
+
+    position: relative;
+    transform: translate(50%, 50%);
+    width: 50%;
+    height: 50%;
+    /* border: 3px solid rgb(51, 50, 50); */
+    border-radius: 50px;
+    background: #121212;
+    box-shadow:  20px 20px 60px #0f0f0f,
+                 -20px -20px 60px #151515;
+}
+
+#pantalla{
+
+    position: absolute;
+    left: 50%;
+    top: 48%;
+    transform: translate(-50%,-50%);
+    width: 60%;
+    height: 80%;
+    background-color: rgb(230, 227, 227);
+    border-radius: 3%;
+}
+
+#mando_left{
+    position: absolute;
+    left: 3%;
+    top: 0%;
+    width: 15%;
+    height:80%;
+    z-index: 2;
+}
+
+#b_left_top > div:nth-child(1){
+    position: absolute;
+    top: 16%;
+    left: -6%;
+    height: 36%;
+    width: 90%;
+    border-radius: 50%;
+background: #363535;
+box-shadow: inset 20px 20px 60px #2e2d2d,
+            inset -20px -20px 60px #3e3d3d;
+}
+
+#b_left_top > div:nth-child(2){
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    height: 30%;
+    width: 75%;
+    margin: 5% 0 0 10%;
+    border-radius: 50%;
+    background: #363535;
+    box-shadow: inset 20px 20px 60px #2e2d2d,
+                inset -20px -20px 60px #3e3d3d;
+}
+
+#a1{
+    position: absolute;
+    left: 10%;
+    top: 35%;
+    height: 35%;
+    width: 35%;
+    clip-path: polygon(65% 18%, 0 18%, 0 89%, 66% 89%, 100% 52%);
+    background-color: #1f1e1e;
+    transform: rotate(0deg);
+}
+
+#a2{
+    position: absolute;
+    left:35%;
+    top: 12%;
+    height: 35%;
+    width: 35%;
+    clip-path: polygon(65% 18%, 0 18%, 0 89%, 66% 89%, 100% 52%);
+    background-color: #1f1e1e;
+    transform: rotate(90deg);
+}
+
+#a3{
+    position: absolute;
+    right:7%;
+    top: 35%;
+    height: 35%;
+    width: 35%;
+    clip-path: polygon(65% 18%, 0 18%, 0 89%, 66% 89%, 100% 52%);
+    background-color: #1f1e1e;
+    transform: rotate(180deg);
+}
+
+#a4{
+    position: absolute;
+    left:33%;
+    top: 56%;
+    height: 35%;
+    width: 35%;
+    clip-path: polygon(65% 18%, 0 18%, 0 89%, 66% 89%, 100% 52%);
+    background-color: #1f1e1e;
+    transform: rotate(270deg);
+}
+
+
+#j1{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 80%;
+    width: 80%;
+    margin: 5% 0 0 10%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow: inset 20px 20px 60px #202020,
+                inset -20px -20px 60px #222222;
+}
+
+#j1:hover, #j2:hover, #a1:hover,#a2:hover,#a3:hover,#a4:hover,#b1:hover,#b2:hover,#b3:hover,#b4:hover {
+
+    background: #424242;
+
+}
+
+#b_left_top > div:nth-child(3){
+    position: absolute; 
+    top: 100%;
+    left: 17%;
+    height: 10%;
+    width: 50%;
+    border-radius: 50%;
+    margin: 5% 0 0 10%;
+    box-shadow: inset 21px 21px 42px #afacac,
+    inset -21px -21px 42px #ede8e8;
+    
+    
+}
+
+#mando_right{
+    position: absolute;
+    right: 3%;
+    top: 0%;
+    width: 15%;
+    height:80%;
+    z-index: 2;
+}
+
+#b_right_top > div:nth-child(1){
+    position: absolute;
+    top: 15%;
+    height: 37%;
+    width: 90%;
+    border-radius: 50%;
+    margin: 5% 0 0 10%;
+    background: #363535;
+    box-shadow: inset 20px 20px 60px #2e2d2d,
+                inset -20px -20px 60px #3e3d3d;
+   
+}
+
+#b1{
+
+    position: absolute;
+    left:35%;
+    top: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow:  20px 20px 60px #1c1c1c,
+             -20px -20px 60px #262626;
+}
+
+
+#b2{
+
+    position: absolute;
+    left:35%;
+    top: 60%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow:  20px 20px 60px #1c1c1c,
+             -20px -20px 60px #262626;
+}
+ #b3{
+
+    position: absolute;
+    left:65%;
+    top: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow:  20px 20px 60px #1c1c1c,
+             -20px -20px 60px #262626;
+}
+
+#b4{
+
+    position: absolute;
+    left:5%;
+    top: 35%;
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow:  20px 20px 60px #1c1c1c,
+             -20px -20px 60px #262626;
+}
+
+.letras_botones{
+
+    position: absolute;
+    margin: 0;
+    color: rgba(228, 228, 228, 0.753);
+    font-size: x-large;
+    left: 35%;
+    top: 25%;
+    height: 30%;
+    width: 30%;
+}
+
+.letras_botones_grandes{
+
+    position: absolute;
+    margin: 0;
+    color: rgba(20, 20, 20, 0.753);
+    font-size: xx-large;
+    font-weight: bold;
+    left: 25%;
+    top: 20%;
+    height: 50%;
+    width: 50%;
+}
+
+#b_right_top > div:nth-child(2){
+    position: absolute;
+    top: 60%;
+    right: 20%;
+    height: 30%;
+    width: 75%;
+    border-radius: 50%;
+    margin: 5% 0 0 10%;
+    background: #363535;
+    box-shadow: inset 20px 20px 60px #2e2d2d,
+                inset -20px -20px 60px #3e3d3d;
+}
+
+
+
+#j2{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    height: 80%;
+    width: 80%;
+    margin: 5% 0 0 10%;
+    border-radius: 50%;
+    background: #1f1e1e;
+    box-shadow: inset 20px 20px 60px #202020,
+                inset -20px -20px 60px #222222;
+}
+
+.ba{
+
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    height: 9%;
+    width: 40%;
+    border-radius: 50%;
+    margin: 5% 0 0 10%;
+    box-shadow: inset 21px 21px 42px #afacac,
+    inset -21px -21px 42px #ede8e8;
+
+}
+
+.bb{
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    height: 9%;
+    width: 40%;
+    border-radius: 50%;
+    margin: 5% 0 0 10%;
+    box-shadow: inset 21px 21px 42px #afacac,
+    inset -21px -21px 42px #ede8e8;
+
+
+}
+
+.gatillo_l{
+ 
+position: fixed;
+top: 24%;
+right: 25%;
+height: 10%;
+width: 5%;
+clip-path: polygon(56% 4%, 91% 15%, 100% 44%, 0 9%);
+background-color: rgb(255, 251, 251);
+}
+
+.gatillo_r{
+ 
+    position: fixed;
+    top: 24%;
+    left: 25%;
+    height: 10%;
+    width: 5%;
+    clip-path: polygon(6% 18%, 49% 0, 100% 11%, 0 45%);
+    background-color: rgb(255, 251, 251);
+}
+
+#modelo{
+    position: absolute;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    top: 90%;
+    left: 45%;
+    height: 30%;
+    width: 30%;
+}
+
+#marca{
+    position: absolute;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    top: 7%;
+    left: 53%;
+    height: 30%;
+    width: 30%;
+}
+
+.home{
+
+    position: fixed;
+    top: 83%;
+    left: 8.3%;
+    height: 5%;
+    width: 5%;
+    margin: 0;
+}
+
